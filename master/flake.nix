@@ -1,5 +1,5 @@
 {
-  description = ''Basic operations on singly and doubly linked lists.'';
+  description = ''Implements basic operations on singly and doubly linked lists with generic value types.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,8 +9,8 @@
   
   inputs.src-listsv-master.flake = false;
   inputs.src-listsv-master.owner = "srwiley";
-  inputs.src-listsv-master.ref   = "refs/heads/master";
-  inputs.src-listsv-master.repo  = "listsv";
+  inputs.src-listsv-master.ref   = "master";
+  inputs.src-listsv-master.repo  = "listsv.git";
   inputs.src-listsv-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

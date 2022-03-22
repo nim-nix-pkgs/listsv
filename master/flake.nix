@@ -10,7 +10,7 @@
   inputs.src-listsv-master.flake = false;
   inputs.src-listsv-master.ref   = "refs/heads/master";
   inputs.src-listsv-master.owner = "srwiley";
-  inputs.src-listsv-master.repo  = "listsv.git";
+  inputs.src-listsv-master.repo  = "listsv";
   inputs.src-listsv-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

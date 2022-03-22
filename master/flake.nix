@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-listsv-master.flake = false;
+  inputs.src-listsv-master.ref   = "refs/heads/master";
   inputs.src-listsv-master.owner = "srwiley";
-  inputs.src-listsv-master.ref   = "master";
   inputs.src-listsv-master.repo  = "listsv.git";
   inputs.src-listsv-master.type  = "github";
   
